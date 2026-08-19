@@ -178,6 +178,14 @@ p { margin: 0 0 1em; }
 }
 .btn-amazon:hover { background: #37475a; }
 
+.btn[aria-disabled="true"] {
+  background: var(--paper-sunk);
+  color: var(--text-faint);
+  cursor: default;
+  box-shadow: none;
+}
+.btn[aria-disabled="true"]:hover { background: var(--paper-sunk); }
+
 /* --------------------------------- nav ----------------------------------- */
 .site-header {
   position: sticky;
@@ -584,6 +592,11 @@ p { margin: 0 0 1em; }
   letter-spacing: .04em;
   padding: 5px 12px;
   border-radius: 999px;
+}
+.buy-card .ribbon.ribbon-muted {
+  background: var(--paper-sunk);
+  color: var(--text-faint);
+  border: 1px solid var(--line);
 }
 .buy-card .format {
   font-family: var(--font-mono);

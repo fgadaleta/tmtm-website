@@ -321,7 +321,7 @@
       <div class="section-head center">
         <span class="kicker" style="justify-content:center;">Formats</span>
         <h2>Get the book</h2>
-        <p class="lede">Direct from the author or from Amazon: same book, your choice of format.</p>
+        <p class="lede">The ebook is available now, direct from the author. Kindle and paperback arrive on Amazon September 10, 2026.</p>
       </div>
 
       <div class="buy-grid">
@@ -330,46 +330,44 @@
           <span class="ribbon">Instant download</span>
           <span class="format">Direct &middot; DRM-free</span>
           <h3>Ebook bundle</h3>
-          <div class="price"><strong><!-- AUTHOR TO SET PRICE --></strong> <span></span></div>
+          <div class="price"><strong>&euro;9.99</strong> <span>one-time purchase</span></div>
           <ul>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>PDF &amp; EPUB, no DRM</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>Delivered instantly by email</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>Free updates if the text is revised</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>Highest margin goes to the author, not a platform</li>
           </ul>
-          <!--
-            CONFIGURE: replace this with your Lemon Squeezy (or Gumroad/Payhip)
-            checkout link or overlay button. See README.md > "Wiring up payments".
-          -->
-          <a href="#" class="btn btn-primary btn-block" data-buy="direct-ebook">Buy ebook &middot; direct</a>
+          <a href="https://mythicaltokenmonth.lemonsqueezy.com/checkout/buy/eb361a15-be30-4208-b7f4-3862512292ae?embed=1" class="btn btn-primary btn-block lemonsqueezy-button" data-buy="direct-ebook">Buy ebook &middot; direct</a>
         </div>
 
         <!-- Amazon Kindle -->
         <div class="buy-card">
+          <span class="ribbon ribbon-muted">Sep 10, 2026</span>
           <span class="format">Amazon &middot; Kindle</span>
           <h3>Kindle edition</h3>
-          <div class="price"><strong></strong> <span>see Amazon listing</span></div>
+          <div class="price"><strong></strong> <span>on Amazon, September 10, 2026</span></div>
           <ul>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>Reads on any Kindle app or device</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>Syncs across devices automatically</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>One-click checkout with your Amazon account</li>
           </ul>
-          <!-- CONFIGURE: replace # with the live Amazon ASIN link once published. -->
-          <a href="#" class="btn btn-amazon btn-block" data-buy="amazon-kindle">Buy on Amazon</a>
+          <!-- CONFIGURE: replace with the live Amazon ASIN link on/after Sep 10, 2026, and remove aria-disabled + the ribbon above. -->
+          <span class="btn btn-amazon btn-block" aria-disabled="true">Available September 10</span>
         </div>
 
         <!-- Amazon Paperback -->
         <div class="buy-card">
+          <span class="ribbon ribbon-muted">Sep 10, 2026</span>
           <span class="format">Amazon &middot; Print</span>
           <h3>Paperback</h3>
-          <div class="price"><strong></strong> <span>see Amazon listing</span></div>
+          <div class="price"><strong></strong> <span>on Amazon, September 10, 2026</span></div>
           <ul>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>Printed and shipped by Amazon</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>Eligible for Prime shipping</li>
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg>The version that survives a power outage</li>
           </ul>
-          <!-- CONFIGURE: replace # with the live Amazon ASIN link once published. -->
-          <a href="#" class="btn btn-amazon btn-block" data-buy="amazon-paperback">Buy on Amazon</a>
+          <!-- CONFIGURE: replace with the live Amazon ASIN link on/after Sep 10, 2026, and remove aria-disabled + the ribbon above. -->
+          <span class="btn btn-amazon btn-block" aria-disabled="true">Available September 10</span>
         </div>
       </div>
 
@@ -453,5 +451,6 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>
 </body>
 </html>
